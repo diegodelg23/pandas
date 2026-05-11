@@ -28,5 +28,4 @@ def star_rating_assign(row):
     else:
         return 1
 
-
 star_ratings = reviews.apply(star_rating_assign, axis='columns')
