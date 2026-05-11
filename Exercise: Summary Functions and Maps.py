@@ -28,4 +28,9 @@ def star_rating_assign(row):
     else:
         return 1
 
+<<<<<<< HEAD
 star_ratings = reviews.apply(star_rating_assign, axis='columns')
+=======
+
+star_ratings = reviews.apply(star_rating_assign, axis='columns')
+>>>>>>> origin/master
